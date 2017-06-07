@@ -156,9 +156,16 @@
 
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-      <p id="bad">You could do better. Check out <a href="#">this site</a> to get information to improve your health.</p>
-      <p id="great">You are doing great!</p>
-      <p id="ok">You are doing okay.</p>
+
+      <div class="alert alert-success"  id="great" role="alert">
+        <strong>Well done!</strong> You are doing great!
+      </div>
+      <div class="alert alert-info" id="ok" role="alert">
+        <strong>Heads up!</strong> You are doing okay.
+      </div>
+      <div class="alert alert-warning" role="alert" id="bad">
+        You could do better. Check out <a href="#" class="alert-link">this site</a> to get information to improve your health.
+      </div>
 
     </div>
   </body>
